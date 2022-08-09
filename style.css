@@ -1,0 +1,178 @@
+body {
+    margin: 10px;
+    font-family: sans-serif;
+}
+
+.image {
+    width: 50px;
+}
+
+nav {
+    background-color: whitesmoke;
+    display: flex;
+    height: 7vh;
+}
+
+.nav-left {
+    font-weight: bold;
+    font-size: larger;
+    display: flex;
+    padding-left: 100px;
+    align-items: center;
+    flex: 50%;  /* untuk mengatur lebar */
+}
+
+.nav-left li {
+    display: inline;
+}
+
+.nav-left ul {
+    display: flex;
+    /* align-items: center; */
+}
+
+.nav-left ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.nav-right {
+    /* background-color: red; */
+    display: flex;
+    flex: 50%;
+    align-items: center; /* untuk mengtaur posisi atas tengah bawah */
+    justify-content: flex-end; /* untuk mengtaur posisi kiri tengah kanan */
+    padding-right: 100px;
+}
+
+.nav-right a {
+    background-color: rgb(34, 32, 32);
+    color: white;
+    padding: 8px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container {
+    /* background-color: aqua; */
+    border: none;
+    border-radius: 30px;
+    border: 1px solid white;
+    box-shadow: 0px 0px 30px grey;
+    height: 70vh;
+    background-color: white;
+    display: flex;
+    justify-content: center; /* horizontal */ 
+    align-items: center; /* vertical */
+}
+
+.box{
+    padding: 80px 300px;
+    background-color: rgb(230, 237, 243);
+}
+
+section {
+    /* background-color: blueviolet; */
+    display: flex;
+    width: 85%;
+}
+
+.section-right {
+    flex: 30%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.table{
+    font-size: 30px;
+    display: flex;
+    flex: 50%;
+    height: 6vh;
+    justify-content: start;
+    align-items: center;
+}
+
+.contact{
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    padding: 6px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.cv{
+    cursor: pointer;
+    padding-left: 18px;
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.download{
+    width: 14px;
+    padding-left: 2px;
+}
+
+.cardbox{
+    border: 1px solid rgb(214, 213, 213); 
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgb(194, 192, 192);
+    text-align: center;
+}
+
+.cardname p{
+    margin-top: -16px;
+}
+
+.section-left {
+    flex: 60%;
+    padding-left: 45px;
+    padding-right: 45px;
+    text-align: justify;
+}
+
+.section-left h2{
+    display: flex;
+    flex: 50%;
+    height: 6vh;
+    justify-content: start;
+    align-items: center;
+}
+
+.section-left p{
+    display: flex;
+    flex: 50%;
+    height: 20vh;
+    justify-content: start;
+    align-items: center
+
+}
+
+.skill-container {
+    display: flex;
+    margin-top: 25px;
+}
+
+.skill-container img {
+    width: 50px;
+}
+
+.social-media {
+    font-size: 30px;
+    display: flex;
+    flex: 50%;
+    height: 6vh;
+    justify-content: start;
+    align-items: flex-end;
+}
+
+.social-media i {
+    margin-right: 22px;
+    color:black;
+    cursor: pointer;
+}
