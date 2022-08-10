@@ -19,7 +19,7 @@ nav {
     display: flex;
     padding-left: 100px;
     align-items: center;
-    flex: 50%;  /* untuk mengatur lebar */
+    flex: 50%;
 }
 
 .nav-left li {
@@ -28,7 +28,6 @@ nav {
 
 .nav-left ul {
     display: flex;
-    /* align-items: center; */
 }
 
 .nav-left ul li a {
@@ -38,11 +37,10 @@ nav {
 }
 
 .nav-right {
-    /* background-color: red; */
     display: flex;
     flex: 50%;
-    align-items: center; /* untuk mengtaur posisi atas tengah bawah */
-    justify-content: flex-end; /* untuk mengtaur posisi kiri tengah kanan */
+    align-items: center;
+    justify-content: flex-end;
     padding-right: 100px;
 }
 
@@ -56,7 +54,6 @@ nav {
 }
 
 .container {
-    /* background-color: aqua; */
     border: none;
     border-radius: 30px;
     border: 1px solid white;
@@ -64,8 +61,8 @@ nav {
     height: 70vh;
     background-color: white;
     display: flex;
-    justify-content: center; /* horizontal */ 
-    align-items: center; /* vertical */
+    justify-content: center;
+    align-items: center;
 }
 
 .box{
@@ -74,7 +71,6 @@ nav {
 }
 
 section {
-    /* background-color: blueviolet; */
     display: flex;
     width: 85%;
 }
